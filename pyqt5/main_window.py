@@ -207,7 +207,7 @@ class MainWindow(QtWidgets.QMainWindow):
             self.model = self.Define_DH_model()
             self.submodel = self.Define_DH_Delta_Strategy_Model()
 
-            plot_height_split = (self.tree_height + 1) / 2
+            plot_height_split = (self.tree_height + 1) // 2
 
             # For the presentation...
             self.flag_target = False
