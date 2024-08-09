@@ -14,7 +14,7 @@ def DeepHedgingParams():
 			]},
 			{'name': 'Monte-Carlo Simulation', 'type': 'group', 'children': [
 					{'name': 'Sample Size', 'type': 'group', 'children': [
-            {'name': 'Training', 'type': 'int', 'value': 1*(10**5)},
+            {'name': 'Training', 'type': 'int', 'value': 1*(10**4)},
             {'name': 'Testing (as fraction of Training)', 'type': 'float', 'value': 0.2}
 					]},
 			]},
